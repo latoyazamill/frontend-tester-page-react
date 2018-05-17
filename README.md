@@ -31,4 +31,5 @@ Available on:
 2. [Embedded Requesting](https://app.hellosign.com/api/embeddedRequestingWalkthrough) - [Client Side](https://app.hellosign.com/api/embeddedRequestingWalkthrough#EmbeddedRequestingClientSide)
 3. [Embedded Templates](https://app.hellosign.com/api/embeddedTemplatesWalkthrough)
 
+## More Info
 This frontend tester page is complimentary to separately use with the Node.js backend found [here](https://github.com/latoyazamill/hellosign-console-app).
