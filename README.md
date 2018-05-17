@@ -1,6 +1,6 @@
 # HelloSign Frontend Tester Page with ReactJS
 
-This page was created to test HelloSign API's Embedded Requesting, Embedded Signature Requests, and Embedded Templates
+This page was created to test HelloSign API's Embedded Requesting, Embedded Signature Requests, and Embedded Templates.
 
 ## Getting Started
 
