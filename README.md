@@ -27,9 +27,9 @@ Available on:
 
 ## HelloSign API Walkthroughs
 
-1. [Embedded Signing](https://app.hellosign.com/api/embeddedSigningWalkthrough) - [Client Side](https://app.hellosign.com/api/embeddedSigningWalkthrough#EmbeddedSigningClientSide)
-2. [Embedded Requesting](https://app.hellosign.com/api/embeddedRequestingWalkthrough) - [Client Side](https://app.hellosign.com/api/embeddedRequestingWalkthrough#EmbeddedRequestingClientSide)
-3. [Embedded Templates](https://app.hellosign.com/api/embeddedTemplatesWalkthrough)
+1. **[Embedded Signing]**(https://app.hellosign.com/api/embeddedSigningWalkthrough) - [Client Side](https://app.hellosign.com/api/embeddedSigningWalkthrough#EmbeddedSigningClientSide)
+2. **[Embedded Requesting]**(https://app.hellosign.com/api/embeddedRequestingWalkthrough) - [Client Side](https://app.hellosign.com/api/embeddedRequestingWalkthrough#EmbeddedRequestingClientSide)
+3. **[Embedded Templates]**(https://app.hellosign.com/api/embeddedTemplatesWalkthrough)
 
 ## Testing use cases
 
