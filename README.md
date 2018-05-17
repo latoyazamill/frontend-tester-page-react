@@ -27,14 +27,14 @@ Available on:
 
 ## HelloSign API Walkthroughs
 
-1. [Embedded Signing](https://app.hellosign.com/api/embeddedSigningWalkthrough) - [Client Side](https://app.hellosign.com/api/embeddedSigningWalkthrough#EmbeddedSigningClientSide)
-2. [Embedded Requesting](https://app.hellosign.com/api/embeddedRequestingWalkthrough) - [Client Side](https://app.hellosign.com/api/embeddedRequestingWalkthrough#EmbeddedRequestingClientSide)
+1. Embedded Signing - [Client Side](https://app.hellosign.com/api/embeddedSigningWalkthrough#EmbeddedSigningClientSide)
+2. Embedded Requesting - [Client Side](https://app.hellosign.com/api/embeddedRequestingWalkthrough#EmbeddedRequestingClientSide)
 3. [Embedded Templates](https://app.hellosign.com/api/embeddedTemplatesWalkthrough)
 
 ## Testing use cases
 
-1. **Embedded Signing** - Create an embedded signature request with or without a template (the template can be create on hellosign.com). You will need the `signature_id` (for each signer) to get the embedded `sign_url` (for each signer) and complete the signature request in the iFrame.
-2. **Embedded Requesting** - Create an embedded uncliamed draft and use the `claim_url` to complete the request for signature in the iFrame.
+1. **Embedded Signing** - Create an [embedded signature request](https://app.hellosign.com/api/embeddedSigningWalkthrough) with or without a template (the template can be create on hellosign.com). You will need the `signature_id` (for each signer) to get the embedded `sign_url` (for each signer) and complete the signature request in the iFrame.
+2. **Embedded Requesting** - Create an [embedded uncliamed draft](https://app.hellosign.com/api/embeddedRequestingWalkthrough) and use the `claim_url` to complete the request for signature in the iFrame.
 3. **Embedded Templates** - Create an embedded template draft and use the `edit url` to edit the template in the iFrame. 
 
 ## More Info
