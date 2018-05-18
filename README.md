@@ -49,10 +49,7 @@ If the above request was create in `test_mode` then you skip the domain verifica
 
 **Potential bug** when using `Close and redirect?`
 
-You will receive and error message of *"'X-Frame-Options' to 'sameorigin'"* if the tests are **not** being done from the same domain as your site page
-
-**SAMEORIGIN**
-If a parent page is from the same domain as your site page, the site page can be included in the iFrame. [More Info](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
+You will receive and error message of *"'X-Frame-Options' to 'sameorigin'"* if the tests (parent page) are **not** being done from the same domain as your site page, the site page cannot be included in the iFrame. [More Info](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
 
 ## More Info
 This frontend tester page is complimentary to separately use with the Node.js backend found [here](https://github.com/latoyazamill/hellosign-console-app).
