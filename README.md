@@ -49,6 +49,8 @@ After you get your Client Id, you will need to complete one of the following req
 
 If the above request was create in `test_mode` then you skip the domain verification by checking the box next to `Skip domain verification?`. 
 
+## Bugs
+
 **Potential bug** when using `Close and redirect?`
 
 You will receive and error message of *"'X-Frame-Options' to 'sameorigin'"* if the tests (parent page) are **not** being done from the same domain as your site page, the site page cannot be included in the iFrame. [More Info](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
