@@ -37,9 +37,13 @@ You will need your Client Id for each of the test cases below. Your Client Id ca
 
 After you get your Client Id, you will need to complete one of the following request to retrieve the `sign_url`, `claim_url`, or `edit_url`.
 
-1. **Embedded Signing** - Create an [embedded signature request](https://app.hellosign.com/api/embeddedSigningWalkthrough) with or without a template (the template can be create on hellosign.com). You will need the `signature_id` (for each signer) to get the embedded `sign_url` (for each signer) and complete the signature request in the iFrame.
-2. **Embedded Requesting** - Create an [embedded uncliamed draft](https://app.hellosign.com/api/embeddedRequestingWalkthrough) and use the `claim_url` to complete the request for signature in the iFrame.
-3. **Embedded Templates** - Create an embedded template draft and use the `edit url` to edit the template in the iFrame. 
+1. **Embedded Signing** - 
+- Create an [embedded signature request](https://app.hellosign.com/api/embeddedSigningWalkthrough) with or without a template (the template can be create on hellosign.com). 
+- You will need the `signature_id` (for each signer) to get the embedded `sign_url` (for each signer) and complete the signature request in the iFrame.
+2. **Embedded Requesting** - 
+- Create an [embedded uncliamed draft](https://app.hellosign.com/api/embeddedRequestingWalkthrough) and use the `claim_url` to complete the request for signature in the iFrame.
+3. **Embedded Templates** - 
+- Create an embedded template draft and use the `edit url` to edit the template in the iFrame. 
 
 If the above request was create in `test_mode` then you skip the domain verification by checking the box next to `Skip domain verification?`. 
 
