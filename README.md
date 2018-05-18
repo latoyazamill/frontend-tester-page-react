@@ -45,7 +45,7 @@ After you get your Client Id, you will need to complete one of the following req
 2. **Embedded Requesting** - 
 - Create an [embedded uncliamed draft](https://app.hellosign.com/api/embeddedRequestingWalkthrough) and use the `claim_url` to complete the request for signature in the iFrame.
 3. **Embedded Templates** - 
-- Create an [embedded template](https://app.hellosign.com/api/embeddedTemplatesWalkthrough) draft and use the `edit url` to edit the template in the iFrame. 
+- Create an [embedded template draft](https://app.hellosign.com/api/embeddedTemplatesWalkthrough) and use the `edit url` to edit the template in the iFrame. 
 
 If the above request was create in `test_mode` then you skip the domain verification by checking the box next to `Skip domain verification?`. 
 
