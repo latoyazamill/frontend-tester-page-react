@@ -54,12 +54,12 @@
             uxVersion: 2, //must be 2
             redirectUrl: redirect_url === true ? redirect : false,//where the user will be redirected AFTER signing
             skipDomainVerification: skip_domain_verification, //will only work if the Signature Request was created with test_mode=1
-            messengerListener: function(eventData) {
-              if (event.Data == HelloSign.EVENT_DECLINED) {
-                Hellosign.close();
-                console.log("What happened?", eventData);
-              }
-          }
+          //   messengerListener: function(eventData) {
+          //     if (event.Data == HelloSign.EVENT_DECLINED) {
+          //       Hellosign.close();
+          //       console.log("What happened?", eventData);
+          //     }
+          // }
         });
 
         render() {
