@@ -44,7 +44,7 @@
           var sign_or_template_url = this.state.sign_or_template_url;
           var skip_domain_verification = this.state.skip_domain_verification;
           var redirect_url = this.state.redirect_url;
-          var container = this.state.container;
+          var contained = this.state.container;
           var redirect = 'http://www.checkembedded.com';
 
           HelloSign.init(client_id);
@@ -56,7 +56,7 @@
             uxVersion: 2, //must be 2
             redirectUrl: redirect_url === true ? redirect : false,//where the user will be redirected AFTER signing
             skipDomainVerification: skip_domain_verification, //will only work if the Signature Request was created with test_mode=1
-            container: container ? document.getElementById('myHSContainer') : false,
+            //container: contained === true ? document.getElementById('myHSContainer') : false, //Unable to toggle between the container and the iFrame
             messengerListener: function(eventData) {
               if (event.Data == HelloSign.EVENT_DECLINED) {
                 Hellosign.close();
