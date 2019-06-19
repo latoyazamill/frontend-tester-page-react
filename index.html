@@ -53,9 +53,11 @@
             url: sign_or_template_url,
             allowCancel: true, //User can close iFrame withOUT signing
             debug: true, //enables debug output to console.log
-            uxVersion: 2, //must be 2
+            uxVersion: 1, //must be 2
             redirectUrl: redirect_url === true ? redirect : false,//where the user will be redirected AFTER signing
             skipDomainVerification: skip_domain_verification, //will only work if the Signature Request was created with test_mode=1
+            userCulture: HelloSign.CULTURES.FR_FR,
+            //finalButtonText: "Send",
             //container: contained === true ? document.getElementById('myHSContainer') : false, //Unable to toggle between the container and the iFrame
             messengerListener: function(eventData) {
               if (event.Data == HelloSign.EVENT_DECLINED) {
